@@ -127,3 +127,29 @@ button{
     align-self: flex-end;
     font-weight: bold;
 }
+.signup{
+    display: flex;
+    background: #3882f6;
+    color: #e5e7eb;
+    margin: 64px;
+    padding: 32px 160px;
+    border-radius: 10px;
+    align-self: center;    
+    justify-content: space-between;  
+    gap: 64px;
+}
+.signup h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-bottom: -18px;
+}
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.signup button {
+    border: 2px solid #e5e7eb ;
+    align-self: center;
+
+}
